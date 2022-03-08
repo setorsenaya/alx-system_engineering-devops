@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d ! -path . _print | wc -1
+find . -type f ! -path . _print | wc -1
